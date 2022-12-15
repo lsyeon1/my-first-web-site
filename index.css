@@ -1,0 +1,66 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'ChosunNm';
+    font-weight: normal;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/ChosunNm/ChosunNm.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/ChosunNm/ChosunNm.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/ChosunNm/ChosunNm.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/ChosunNm/ChosunNm.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/ChosunNm/ChosunNm.ttf') format("truetype");
+    font-display: swap;
+}
+html {
+    font-size:  20px;
+}
+body {
+    font-size:  1rem;
+    font-family: 'ChosunNm';
+}
+a {text-decoration:none;
+}
+header .total {
+    display: none;
+}
+header > div {
+    position: relative;
+    width: 54.5rem;
+    margin:0 auto;
+}
+header > div h1 {
+    float: left;
+    padding: 2.5rem 0 2.5rem;
+}
+header > div nav{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 2.8rem 0 0 0;
+}
+header > div nav > ul > li{
+    float: left;
+    list-style: none;
+}
+header > div nav > ul > li > a{
+    display: block;
+    padding:.75rem 2.5rem 0;
+    height: 2.6rem;
+    font-size:.9rem;
+    color:#333;
+}
+.login{
+   padding:0 2.5rem 0;
+}
+.login i{
+    display: none;
+}
+.login a{
+    height: 50px;
+    line-height: 50px;
+    background: #333;
+    padding: 0px 34px 0;
+    text-align: center;
+    color: #fff !important;
+    border: 1px solid #333;
+    border-radius: 40px;
+}
