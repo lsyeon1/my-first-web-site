@@ -19,3 +19,10 @@ header .total {
 header > div nav > ul > li:not(:last-child) {
     display: none;
 }
+header > div .login a{
+    all: unset;
+}
+header > div .login span{
+    
+    position: absolute; left: -4000%;
+}
